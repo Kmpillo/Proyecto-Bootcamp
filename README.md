@@ -2,12 +2,12 @@
 Proyecto final despliegue infraestructura altamente disponible
 # *1. Planificación*
 # *1.1 Identificar Roles*
-## - Administrador de nube y servidores: derechos de administración (acceso a todo AWS).
-## - Desarrollador: acceso solamente a AWS Cloud9.
-## - Administrador de servidor Web y Base de Datos: full acceso Amazon EC2, RDS y System Manager (parameter Store)
-## - Equipo de soporte de Almacenamiento: puede ver solamente los buckets creados en S3.
-## - Auditor - Accesos: Accesos de solo lectura Amazon EC2, RDS, IAM.
-## - Usuario de Consulta: Accesos de solo lectura Amazon EC2, RDS.
+#### - Administrador de nube y servidores: derechos de administración (acceso a todo AWS).
+#### - Desarrollador: acceso solamente a AWS Cloud9.
+#### - Administrador de servidor Web y Base de Datos: full acceso Amazon EC2, RDS y System Manager (parameter Store)
+#### - Equipo de soporte de Almacenamiento: puede ver solamente los buckets creados en S3.
+#### - Auditor - Accesos: Accesos de solo lectura Amazon EC2, RDS, IAM.
+#### - Usuario de Consulta: Accesos de solo lectura Amazon EC2, RDS.
 # *1.2 Diagrama de Gantt
 ![Diagrama de Gantt](images/DiagramadeGantt.PNG)
 # 1.3* Requerimientos
